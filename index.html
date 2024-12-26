@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Card</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 grid gi#
+ justify-center  items-center h-screen">
+
+  <!-- E-Commerce Card -->
+  <div class="flex justify-between align-center">
+    <h1 class="font-bold text-xl p-9 flex justify-center just ">WElCOME TO MY STORE </h1>
+    <div class="buttons m-2 p-1 rounded-lg  gap-6 flex justify-center justify-center">
+      <button class="bg-red-500 px-8 py-9">Sign Up</button>
+      <button>Login</button>
+    </div>
+
+  </div>
+
+    <div id="all-products"  class="  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        
+    <div   class="max-w-sm bg-white rounded-lg  shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300">
+        <img class="w-full h-48 object-cover" src="https://images.unsplash.com/photo-1594534475808-b18fc33b045e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D " alt="Product Image">
+        <div class="p-4">
+        <h2 class="text-lg font-semibold text-gray-800">Product Title</h2>
+        <p class="text-gray-600 text-sm mt-1">A brief description of the product goes here. It provides a concise overview.</p>
+        <div class="flex justify-between items-center mt-4">
+            <span class="text-xl font-bold text-blue-600">$49.99</span>
+            <span class=" text-gray-600 font-medium"></span>
+            <button class="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            >
+                
+            Add 
+                
+            </button>
+        </div>
+     <h2 class="added"> Add to cart :  <span id="numbers"> 0</span> </h2> 
+
+        </div>
+  </div>
+</div>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
